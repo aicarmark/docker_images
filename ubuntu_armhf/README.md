@@ -3,7 +3,7 @@ Build and Run ARM Docker Images on x86 Host
 
 - Install QEMU  
 1.apt-get  
-    `apt-get update && apt-get install -y --no-install-recommends qemu-user-static binfmt-support`
+    `apt-get update && apt-get install -y --no-install-recommends qemu-user-static binfmt-support`  
     `update-binfmts --enable qemu-arm`  
     `update-binfmts --display qemu-arm`  
 2.source (make sure that the qemu-arm-static binary is under /usr/bin/)  
